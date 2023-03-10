@@ -2,6 +2,7 @@ package com.andreamonacelli.exercises.oop.basic;
 
 import java.util.Objects;
 
+//TESTS PASSED!
 public class RationalNumber {
     //Attributes set
     int numerator;
