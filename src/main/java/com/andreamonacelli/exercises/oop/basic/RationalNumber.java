@@ -5,8 +5,8 @@ import java.util.Objects;
 //TESTS PASSED!
 public class RationalNumber {
     //Attributes set
-    int numerator;
-    int denominator;
+    final int numerator;
+    final int denominator;
 
     //Constructor
 
