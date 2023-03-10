@@ -6,8 +6,8 @@ public class Concatenate {
         //Create a StringBuilder object with whom we are going to build the concatenated string
         StringBuilder stringbuilder = new StringBuilder();
         //Loop to concatenate the strings given as input parameter
-        for(int i = 0; i < strings.length; i++){
-            stringbuilder.append(strings[i]);
+        for (String string : strings) {
+            stringbuilder.append(string);
         }
         //Return the final string
         return stringbuilder.toString();
