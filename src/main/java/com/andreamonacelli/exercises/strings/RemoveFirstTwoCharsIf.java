@@ -1,5 +1,6 @@
 package com.andreamonacelli.exercises.strings;
 
+//TESTS PASSED!
 public class RemoveFirstTwoCharsIf {
     public static String removeFirstTwoCharsIf(String string) {
         StringBuilder builder = new StringBuilder();
