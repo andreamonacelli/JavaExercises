@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.andreamonacelli.exercises.arrays.FillArraysTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-10T14:02:54" hostname="MONAC-LAPTOP" time="0.025">
+  <properties/>
+  <testcase name="fillArray()" classname="com.andreamonacelli.exercises.arrays.FillArraysTest" time="0.025"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
