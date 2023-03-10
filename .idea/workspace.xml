@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3b39e5c-d590-4379-a235-e55c9e23c67d" name="Changes" comment="10th March 2023 commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/andreamonacelli/exercises/oop/basic/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/andreamonacelli/exercises/strings/RemoveFirstTwoChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/andreamonacelli/exercises/oop/basic/CircleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/andreamonacelli/exercises/strings/RemoveFirstTwoCharsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/andreamonacelli/exercises/arrays/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/andreamonacelli/exercises/strings/RemoveFirstTwoCharsIf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/andreamonacelli/exercises/arrays/FibonacciTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/andreamonacelli/exercises/strings/RemoveFirstTwoCharsIfTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -20,7 +20,6 @@
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andreamonacelli/exercises/oop/basic/RationalNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andreamonacelli/exercises/oop/basic/RationalNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,12 +77,12 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.andreamonacelli.exercises.oop.basic" />
       <recent name="com.andreamonacelli.exercises.strings" />
       <recent name="com.andreamonacelli.exercises.arrays" />
+      <recent name="com.andreamonacelli.exercises.oop.basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CircleTest">
+  <component name="RunManager" selected="Gradle.RemoveFirstTwoCharsIfTest">
     <configuration name="CircleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -107,7 +106,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DivideArrayTest.divideArray" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FibonacciTest.fibonacci" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -120,7 +119,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.andreamonacelli.exercises.arrays.DivideArrayTest.divideArray&quot;" />
+            <option value="&quot;com.andreamonacelli.exercises.arrays.FibonacciTest.fibonacci&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -130,7 +129,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RationalNumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RemoveFirstTwoCharsIfTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -143,7 +142,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.andreamonacelli.exercises.oop.basic.RationalNumberTest&quot;" />
+            <option value="&quot;com.andreamonacelli.exercises.strings.RemoveFirstTwoCharsIfTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -153,7 +152,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RationalNumberTest.multiply" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RemoveFirstTwoCharsIfTest.removeFirstTwoCharsIf" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -166,7 +165,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.andreamonacelli.exercises.oop.basic.RationalNumberTest.multiply&quot;" />
+            <option value="&quot;com.andreamonacelli.exercises.strings.RemoveFirstTwoCharsIfTest.removeFirstTwoCharsIf&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -201,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RemoveFirstTwoCharsIfTest" />
+        <item itemvalue="Gradle.RemoveFirstTwoCharsIfTest.removeFirstTwoCharsIf" />
+        <item itemvalue="Gradle.FibonacciTest.fibonacci" />
         <item itemvalue="Gradle.CircleTest" />
         <item itemvalue="Gradle.RemoveFirstTwoCharsTest.removeFirstTwoChars" />
-        <item itemvalue="Gradle.DivideArrayTest.divideArray" />
-        <item itemvalue="Gradle.RationalNumberTest" />
-        <item itemvalue="Gradle.RationalNumberTest.multiply" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678459136256</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="10th March 2023 commit">
+      <created>1678461098243</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678461098243</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
