@@ -1,6 +1,5 @@
 package com.andreamonacelli.exercises.oop.basic;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 /**
@@ -8,7 +7,7 @@ import java.util.Arrays;
  * An added feature to the EnhancedArray class is that these arrays are resizable
  * @author Andrea Monacelli
  * @version 2023.03.11
- * @testsResults NotDoneYet
+ * @testsResults Passed!
  */
 public class EnhancedResizableArray {
     /** default length of the array */
@@ -31,11 +30,11 @@ public class EnhancedResizableArray {
      * @param value is the value to insert
      */
     public void add(int value){
-        if(this.size < DEFAULT_LENGTH){
+        if(this.size < this.v.length){
             this.v[size] = value;
             size++;
         } else {
-            size++;
+            size = this.v.length + 1;
             this.v = Arrays.copyOf(this.v, this.size);
             this.v[size - 1] = value;
         }
@@ -46,11 +45,12 @@ public class EnhancedResizableArray {
      * @param index the index of the element that you want to remove
      */
     public void remove(int index){      //TO FIX: THE SWAP OF ELEMENTS IS WRONG AND IT SHOULDN'T BE DONE
-        if(index != this.v.length - 1){
-            this.v[index] = this.v[this.v.length - 1];
+        int[] tmp = Arrays.copyOf(this.v, this.size);
+        this.v = Arrays.copyOfRange(this.v, 0, index);
+        for(int i = index + 1; i < tmp.length; i++){
+            this.add(tmp[i]);
         }
         size--;
-        this.v = Arrays.copyOf(this.v, this.v.length - 1);
     }
 
     /**
@@ -77,8 +77,8 @@ public class EnhancedResizableArray {
      * @return true if the value is present, false otherwise
      */
     public boolean contains(int value){
-        for(int i = 0; i < this.v.length; i++){
-            if(this.v[i] == value){
+        for (int j : this.v) {
+            if (j == value) {
                 return true;
             }
         }
